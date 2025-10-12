@@ -1,0 +1,33 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+pydantic==2.4.2
+pydantic-settings==2.0.3
+
+# NLP and ML
+spacy==3.7.2
+sentence-transformers==2.2.2
+transformers==4.35.0
+
+# Database clients
+neo4j==5.14.0
+qdrant-client==1.6.9
+
+# Redis
+redis==5.0.1
+
+# HTTP and utilities
+httpx==0.25.1
+aiohttp==3.9.0
+requests==2.31.0
+
+# Logging
+loguru==0.7.2
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Data processing
+numpy==1.26.2
+pandas==2.1.3
