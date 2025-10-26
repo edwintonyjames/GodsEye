@@ -1,6 +1,6 @@
-# Contributing to DefinitelyNotASpy
+# Contributing to GodsEye
 
-Thank you for your interest in contributing to DefinitelyNotASpy! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to GodsEye! This document provides guidelines and instructions for contributing.
 
 ## 🚀 Getting Started
 
@@ -14,8 +14,8 @@ Thank you for your interest in contributing to DefinitelyNotASpy! This document 
 
 1. **Fork and clone the repository**
    ```bash
-   git clone https://github.com/yourusername/DefinitelyNotASpy.git
-   cd DefinitelyNotASpy
+   git clone https://github.com/yourusername/GodsEye.git
+   cd GodsEye
    ```
 
 2. **Set up environment variables**
@@ -34,7 +34,7 @@ Thank you for your interest in contributing to DefinitelyNotASpy! This document 
 ## 🏗️ Project Structure
 
 ```
-DefinitelyNotASpy/
+GodsEye/
 ├── crawler-service/     # Go-based crawler
 │   ├── internal/        # Internal packages
 │   │   ├── crawler/     # Crawling logic
