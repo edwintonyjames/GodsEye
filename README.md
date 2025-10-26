@@ -1,4 +1,4 @@
-# 🧠 DefinitelyNotASpy
+# 🧠 GodsEye
 
 A hybrid AI data retrieval and intelligence system that crawls the internet, extracts and structures information about people, places, or entities, and builds a comprehensive knowledge graph with semantic analysis capabilities.
 
@@ -47,7 +47,7 @@ This project uses a **microservices architecture** with two primary services:
 ## 📁 Project Structure
 
 ```
-DefinitelyNotASpy/
+GodsEye/
 ├── crawler-service/           # Go-based web crawler
 │   ├── main.go
 │   ├── go.mod
@@ -87,7 +87,7 @@ DefinitelyNotASpy/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd DefinitelyNotASpy
+   cd GodsEye
    ```
 
 2. **Set up environment variables**
@@ -104,7 +104,7 @@ DefinitelyNotASpy/
 4. **Access the services**
    - Crawler API: http://localhost:8080
    - Intel API: http://localhost:8000
-   - Neo4j Browser: http://localhost:7474 (user: neo4j, pass: definitelynotaspy123)
+   - Neo4j Browser: http://localhost:7474 (user: neo4j, pass: GodsEye123)
    - Qdrant Dashboard: http://localhost:6333/dashboard
 
 ### Local Development
