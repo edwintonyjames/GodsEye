@@ -6,14 +6,17 @@
     # Install git (needed for some Go modules)
     RUN apk add --no-cache git
     
-    # Copy go.mod and go.sum first
-    COPY go.mod go.sum ./
-    
-    # Download dependencies
-    RUN go mod download
+    # Copy go.mod first
+    COPY go.mod ./
     
     # Copy the rest of the source code
     COPY . .
+    
+    # Tidy dependencies to generate/update go.sum
+    RUN go mod tidy
+    
+    # Download dependencies
+    RUN go mod download
     
     # Build the application
     RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o crawler .
